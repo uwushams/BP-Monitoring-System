@@ -1,0 +1,29 @@
+/* Table.css */
+
+.table-container {
+  background-color: #cce5ff; /* Light blue */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient-table th,
+.patient-table td {
+  padding: 8px;
+  border: 1px solid #ccc;
+}
+
+.patient-table th {
+  background-color: #0056b3; /* Darker blue */
+  color: #fff;
+}
+
+.patient-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
